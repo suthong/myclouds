@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+a{
+text-decoration: none;
+color: black;
+}
+
+body{
+    background-color:#f4f4f4;
+    color:rebeccapurple;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font: normal;
+    /* same as above*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+line-height: 2em;
+margin:0;
+}
+
+
+a:hover{
+color: red;
+}
+
+a:active{
+    color:mediumspringgreen
+}
+
+a:visited{
+    color:blue;
+}
+
+
+
+
+.container{
+width: 80%;
+margin:auto ;
+}
+
+.button{
+    background-color:black;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+
+.box-1{
+    background-color: #333333;
+    color: #fff;
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /* same as above */
+    border: 5px red solid;
+    padding: 20px;
+    
+    margin-top: 20px;
+    margin:20px 0;
+}
+.box-1 h1{
+    font-family:tohoma;
+    font-weight: 700;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:0.2em;
+    word-spacing: 1em;
+}
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px; 
+    margin: 020px 0;
+}
+
+.catogories{
+    border:1px 3ccc solod;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.catogories h2{
+  text-align: center;
+}
+
+
+.catogories ul{
+    padding: 0;
+    list-style:square;
+    list-style:none;
+}
+
+
+.catogories li{
+    padding:8px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url
+}
+
+.my-form{
+    padding:20px;
+}
+.my form .group-from{
+    padding bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+.my-form input[type ="text"], .my-form textarea{
+    padding:8px ;
+   width:100% ;
+}
